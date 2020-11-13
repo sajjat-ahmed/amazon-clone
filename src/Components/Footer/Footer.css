@@ -1,0 +1,41 @@
+.back__toTop {
+    height: 45px;
+    width: 100%;
+    background-color: #374455;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.back__toTop:hover {
+    background-color: #424f61;
+}
+
+.back__toTop > small {
+    color: white;
+}
+
+.footer {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+.footer > div > ul {
+    list-style: none;
+}
+
+.footer > div > ul > h5 {
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.footer > div > ul > li {
+    font-size: 14px;
+    padding: 8px;
+    cursor: pointer;
+}
